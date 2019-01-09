@@ -94,5 +94,80 @@
 	console.log(newArray);
 	console.log(popedArray);
 
+	var newNewArray = ["John", "Quester", "Loyola"];
+	console.log(newNewArray);
+	var shiftedArray = newNewArray.shift();
+	console.log(newNewArray);
+	console.log(shiftedArray);
+
+
+	newNewArray.unshift("Squire");
+	console.log(newNewArray);
+///////////////////////////////////////////////////
+	function minusNumber(num)
+	{
+		return num - 1;
+	}
+	console.log(minusNumber(10));
+//////////////////////////////////////////////////
+
+	function change(num) {
+		return (num + 1) * 2;
+	}
+	var changed = 0
+	changed = change(2);
+	console.log(changed);
+//////////////////////////////////////////////////
+
+	function testEqual(val)
+	{
+		if(val == 12)
+		{
+			return "Equal";
+		}
+		else
+		{
+			return "Nope";
+		}
+	}
+
+	console.log(testEqual(12));
+	/////////////////////////////////////////////////
+	function testNewEqual(val)
+	{
+		// 12===12 true // 12 ==='12' false // 12 !== 12 false // 12 !== "12" true //
+		if(val === '12')
+		{
+			return "Equal";
+		}
+		else
+		{
+			return "Nope";
+		}
+	}
+
+	console.log(testNewEqual(12));
+///////////////////////////////////////////////////
+	function testComparison(a,b)
+	{
+		// 12===12 true // 12 ==='12' false // 12 !== 12 false // 12 !== "12" true //
+		if(a === b)
+		{
+			return "Equal";
+		}
+		else
+		{
+			return "Nope";
+		}
+	}
+
+	console.log(testComparison(12, "12"));
+///////////////////////////////////////////////////
+
+	function caseInSwitch(val)
+	{
+		var answer = ""
+	}
+
 
 </script>
