@@ -1,0 +1,89 @@
+body{
+	background-color: #CFC;
+	color: #666666;
+	text-align: jusify;
+}
+
+a{
+	text-decoration: none;
+	color: #000;
+}
+
+a:hover{
+	color: red;
+}
+
+.container{
+	width: 60%;
+	margin: auto;
+}
+
+.Quest-1{
+	background-color: #333;
+	color: #fff;
+
+	border: 5px blue solid;
+	padding: 20px;
+	margin:  20px 0;
+}
+
+.Quest-1 h1{
+	font-family: Tahoma;
+	font-weight: 800;
+	font-style: italic;
+	text-decoration: underline;	
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	word-spacing: 1em;
+}
+
+.Quest-2{
+	border: 3px dotted #ccc;
+	padding: 20px;
+	margin: 20px 0;
+}
+
+.categories{
+	border: 5px red solid;
+	padding: 10px;
+	border-radius: 15px; 
+}
+
+.categories h2{
+	text-align: center;
+}
+
+.categories ul{
+		padding: 0;
+		list-style: square;
+		list-style: none;
+}
+
+.categories li{
+	padding-bottom: 6px;
+	border-bottom:dotted 1px #333; 
+	list-style-image: url(' ../images/memi2.png ');
+}
+
+.my-form{
+	padding: 20px;
+}
+
+.my-form .form-group{
+	padding-bottom: 15px;
+}
+
+.my-form label{
+	display: block;
+}
+
+.my-form input[type="text"], .my-form textarea{
+	padding: 8px;
+	width: 100%;
+}
+.my-form input[type="submit"]{
+	background-color: #333;
+	color: #fff;
+	padding: 10px 15px;
+	border: none;
+}
