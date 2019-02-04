@@ -1,0 +1,37 @@
+.table {
+	
+	color: #45c904;
+	background-color: #996c0c;
+	font-size: 80%
+
+}
+.inputs {
+	width: 400px;
+	font-size: 90%;
+color: #45c904;
+}
+
+
+table {
+	width:100%;
+	}
+tr:hover {
+	background-color: #7b8aaf;
+}
+tr:active {
+	background-color: white;
+}
+.buttons{
+
+}
+
+.textbox{
+	width: 100%;
+	padding-left: 10px;
+	padding-right: 10px;
+
+}
+th{
+	background-color: #222733;
+	font-size: 13px;
+}
