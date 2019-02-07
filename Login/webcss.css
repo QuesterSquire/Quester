@@ -1,5 +1,20 @@
+body{
+	font-family: 'Roboto', sans-serif;
+}
 .table {
-	
+	margin-top: 20px;
+	color: #45c904;
+	background-color: #996c0c;
+	font-size: 80%
+
+}
+.contenttable {
+	margin-top: 64px;
+	color: #45c904;
+	background-color: #996c0c;
+}
+.archivecontenttable {
+	margin-top: 3px;
 	color: #45c904;
 	background-color: #996c0c;
 	font-size: 80%
@@ -22,7 +37,7 @@ tr:active {
 	background-color: white;
 }
 .buttons{
-
+font-size: 20px;
 }
 
 .textbox{
@@ -34,4 +49,78 @@ tr:active {
 th{
 	background-color: #222733;
 	font-size: 13px;
+}
+.restorebutton{
+	background-color: #27c2a5;
+	padding: 7px 14px;
+	border-radius: 5px;
+	border: 0;
+	border-bottom: 4px solid #219882;
+	font-size: 30px;
+	width: 445px;
+	margin-bottom: 10px;	
+}
+.restorebutton:hover, .restorebutton:focus{
+		background-color: #25a890!important;
+	border-bottom: 4px solid #25a890!important; 
+}
+.restorebutton:active{
+	border-radius: 15px;
+}
+.backbutton{
+	background-color: #720d28;
+	padding: 7px 14px;
+	border-radius: 5px;
+	border: 0;
+	border-bottom: 4px solid #3a0513;
+	font-size: 19px;
+	margin-top: 5px;
+
+	
+}
+.backbutton:hover, .backbutton:focus{
+		background-color: #ad0a35!important;
+	border-bottom: 4px solid #ad0a35!important; 
+}
+.backbutton:active{
+	border-radius: 15px;
+}
+.viewarchivebutton{
+	background-color: #27c2a5;
+	padding: 7px 14px;
+	border-radius: 5px;
+	border: 0;
+	border-bottom: 4px solid #219882;
+	font-size: 19px;
+	margin-top: 5px;
+	
+}
+.viewarchivebutton:hover, .viewarchivebutton:focus{
+		background-color: #25a890!important;
+	border-bottom: 4px solid #25a890!important; 
+}
+.viewarchivebutton:active{
+	border-radius: 15px;
+}
+.backbuttontop{
+	background-color: #ad2222;
+	padding: 7px 14px;
+	border-radius: 5px;
+	border: 0;
+	border-bottom: 4px solid #7c1818;
+	font-size: 15px;
+font-color: black;
+		
+}
+.backbuttontop:hover, .backbuttontop:focus{
+		background-color: #7c1818!important;
+	border-bottom: 4px solid #7c1818!important; 
+}
+.backbuttontop:active{
+	border-radius: 15px;
+}
+.backbuttontop{
+position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
 }

@@ -1,5 +1,5 @@
 body{
-	font-family: 'Permanent Marker', cursive;
+	font-family: 'Roboto', sans-serif;
 	background-image: url(src/img/lap.jpeg);
 	background-repeat: no-repeat;
 	background-position: center;
@@ -54,6 +54,9 @@ button .btn{
 .boton:hover, .boton:focus{
 	background-color: #25a890!important;
 	border-bottom: 4px solid #25a890!important; 
+}
+.boton:active{
+	border-radius: 15px;
 }
 .forgot{
 	padding: 25px 0 15px;
